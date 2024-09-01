@@ -1,0 +1,268 @@
+img {
+  transform: scale(1.1);
+}
+.skills {
+  display: flex;
+}
+@media (max-width: 1200px) {
+  .skills {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+.frontend {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.frontend .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  row-gap: 50px;
+}
+.backend {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 100%;
+}
+.backend .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  row-gap: 50px;
+}
+.bac .light {
+  position: absolute;
+  top: -380px;
+  right: -150px;
+  z-index: -100;
+}
+
+.branch {
+  position: absolute;
+  top: -20px;
+  right: -120px;
+  z-index: -100;
+}
+
+.diosamule {
+  position: absolute;
+  top: 10px;
+  right: -110px;
+}
+
+.skillbg {
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+
+.mouse {
+  position: absolute;
+  top: 60px;
+  right: 360px;
+}
+
+.skill {
+  width: 41px;
+  height: 41px;
+
+  &.mongo {
+    transform: scale(1.35);
+    position: absolute;
+    top: 170px;
+    right: 310px;
+  }
+  &.express {
+    transform: scale(1.24);
+    position: absolute;
+    top: 170px;
+    right: 247px;
+  }
+  &.react {
+    transform: scale(1.1);
+    position: absolute;
+    top: 170px;
+    right: 187px;
+  }
+  &.node {
+    transform: scale(1.05);
+    position: absolute;
+    top: 170px;
+    right: 130px;
+  }
+}
+
+.skillname {
+  width: 41px;
+  font-size: 10px;
+  font-weight: 500;
+
+  &.mongo {
+    position: absolute;
+    top: 215px;
+    right: 312px;
+    color: #6aa341;
+  }
+  &.express {
+    position: absolute;
+    top: 215px;
+    right: 251.5px;
+    color: #d17770;
+  }
+  &.react {
+    position: absolute;
+    top: 215px;
+    right: 187px;
+    color: #61dbfb;
+  }
+  &.node {
+    position: absolute;
+    top: 215px;
+    right: 129px;
+    color: #529e42;
+  }
+}
+
+.skill {
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  transition: 0.15s;
+  &.NextJS:hover {
+    color: #000000;
+  }
+  &.React:hover {
+    color: #61dbfb;
+  }
+  &.React.Query:hover {
+    color: #ff4154;
+  }
+  &.Redux.Toolkit:hover {
+    color: #7549b9;
+  }
+  &.Redux.Saga:hover {
+    color: #89d96d;
+  }
+  &.React-Native:hover {
+    color: rgb(109, 172, 217);
+  }
+
+  &.MobX:hover {
+    color: #d7570b;
+  }
+  &.JavaScript:hover {
+    color: #f7df1e;
+  }
+  &.TypeScript:hover {
+    color: #007acc;
+  }
+  &.HTML:hover {
+    color: #ff5325;
+  }
+  &.CSS:hover {
+    color: #264ee4;
+  }
+  &.SASS:hover {
+    color: #cd669a;
+  }
+  &.Tailwind.CSS:hover {
+    color: #38bdf8;
+  }
+  &.Bootstrap:hover {
+    color: #7111f5;
+  }
+  &.Framer.Motion:hover {
+    color: #e630be;
+  }
+  &.Material.UI:hover {
+    color: #007fff;
+  }
+  &.Style.Component:hover {
+    color: #bf4f74;
+  }
+  &.Firebase:hover {
+    color: #ffcc31;
+  }
+  &.Git:hover {
+    color: #f34f29;
+  }
+  &.GitHub:hover {
+    color: #171515;
+  }
+  @media (max-width: 900px) {
+    div svg {
+      font-size: 40px !important;
+    }
+
+    span {
+      font-size: 11px !important;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    color: #5a547c;
+  }
+
+  div svg {
+    font-size: 48px;
+  }
+
+  span {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  &.NodeJS:hover {
+    color: #8cc03e;
+  }
+  &.Python:hover {
+    color: #d5f43d;
+  }
+  &.ExpressJS:hover {
+    color: #828282;
+  }
+  &.NestJS:hover {
+    color: #e0234e;
+  }
+  &.MongoDB:hover {
+    color: #4faa41;
+  }
+  &.TensorFlowJs:hover {
+    color: rgb(237, 144, 12);
+  }
+  &.PostgreSQL:hover {
+    color: #336791;
+  }
+  &.Prisma:hover {
+    color: #0c344b;
+  }
+  &.SocketIo:hover {
+    color: #010101;
+  }
+  &.Axios:hover {
+    color: #5a24e5;
+  }
+  &.Vercel:hover {
+    color: #000000;
+  }
+  &.Docker:hover {
+    color: #1d97ee;
+  }
+  &.Nodemon:hover {
+    color: #2edf83;
+  }
+  &.NodeTS:hover {
+    color: #2261a8;
+  }
+  &.JWT:hover {
+    color: #fb015b;
+  }
+}

@@ -1,0 +1,129 @@
+#about {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.about {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(90deg, #423e5c -100%, white 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 35px;
+  letter-spacing: -1.073px;
+  line-height: 50px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.about::-moz-selection {
+  background: transparent;
+}
+.about::selection {
+  background: transparent;
+}
+.about-h3 {
+  position: relative;
+  max-width: 500px;
+  z-index: 1;
+  background: linear-gradient(90deg, #423e5c -100%, white 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1.073px;
+  line-height: 50px;
+  margin-bottom: 29px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.about-h3::-moz-selection {
+  background: transparent;
+}
+.about-h3::selection {
+  background: transparent;
+}
+.about-p {
+  max-width: 650px;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(90deg, #423e5c -100%, white 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 29px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.about-p::-moz-selection {
+  background: transparent;
+}
+.about-p::selection {
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .about {
+    font-size: 28px;
+  }
+
+  .about-h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .about-p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    font-size: 22px; /* Further decrease font size */
+  }
+
+  .about-h3 {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  .about-p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.about-p {
+  max-width: 650px;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(90deg, #423e5c -100%, white 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 29px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 1200px) {
+  #about {
+    flex-wrap: wrap;
+  }
+  .about-h3 {
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+}
